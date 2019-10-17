@@ -10,7 +10,7 @@ GAME RULES:
 */
 
 var scores, roundScore, activePlayer, gamePlaying, scoreMax;
-scoreMax = 22;
+scoreMax = 40;
 
 init();
 
