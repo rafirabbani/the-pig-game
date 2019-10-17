@@ -26,7 +26,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         //2. Display result
         var diceDOM = document.querySelector('.dice')
         diceDOM.style.display = 'block';
-        diceDOM.src = 'dice-' + dice + '.png';
+        diceDOM.src = 'pig_game_assets/dice-' + dice + '.png';
 
         //3. Update the score if the score not 1
         if (dice !== 1) {
